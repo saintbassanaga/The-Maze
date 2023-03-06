@@ -1,3 +1,96 @@
-.title{
-    font-size: 30px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heros,
+.apropos,
+.services,
+.contact {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.en-tete {
+    padding: 0 70px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+.heros {
+    background-color: #eee;
+    height: 200px;
+}
+
+.heros h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+}
+
+.apropos {
+    background-color: #eee;
+    height: 200px;
+}
+
+.apropos h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+}
+
+.services {
+    background-color: #eee;
+    height: 200px;
+}
+
+.services h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+}
+
+.contact {
+    background-color: #eee;
+    height: 200px;
+}
+
+.contact h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+}
+
+.pied-de-page {
+    background-color: #777;
+    height: 40px;
+}
+
+.pied-de-page p {
+    margin-left: 50%;
+    line-height: 1.7;
 }
